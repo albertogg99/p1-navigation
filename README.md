@@ -37,7 +37,7 @@ when the average score of the last 100 episodes is equal or greater than 13 poin
 #### Guidelines
 
 The whole training of the agent is implemented in the [Solution.ipynb notebook](https://github.com/albertogg99/p1-navigation/blob/master/solution/Solution.ipynb). You can either visualize the last
-execution or run it by yourself. To do so, you can take the following steps:
+execution or run it by yourself in a Jupyter server. To do so, you can take the following steps to fulfill the requirements:
 
 1. Create (and activate) a new environment with Python 3.6.
 
