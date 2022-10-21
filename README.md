@@ -73,4 +73,5 @@ environment.
 
 The agent is able to solve the problem in 395 episodes. The weights of the deep Q-network are stored in 
 `solution/agent.pth`. 
+
 ![image4]
