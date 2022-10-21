@@ -3,17 +3,17 @@
 [image1]: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Udacity_logo.svg/640px-Udacity_logo.svg.png
 [image2]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif 
 [image3]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png
-
+[image4]: https://github.com/albertogg99/p1-navigation/blob/master/solution/history.png
 
 
 ### ![image1]
-# Deep Reinforcement Learning Nanodegree
-## Value Based Methods | Project: *Navigation*
+### Deep Reinforcement Learning Nanodegree
+### Value Based Methods | Project: *Navigation*
 ### Author : Alberto García García
 
----
+#
 
-### Introduction
+#### Introduction
 
 
 The problem to be solved in this project consists in training an agent through
@@ -34,7 +34,7 @@ actions are available, corresponding to:
 Yellow bananas provides a reward of +1, while blue ones provide a reward of -1. The problem is considered to be solved 
 when the average score of the last 100 episodes is equal or greater than 13 points.  
 
-### Guidelines
+#### Guidelines
 
 The whole training of the agent is implemented in the Solution.ipynb notebook. You can either visualize the last
 execution or run it by yourself. To do so, you can take the following steps:
@@ -69,7 +69,8 @@ environment.
    ![image3]
 
 
-### Results
+#### Results
 
 The agent is able to solve the problem in 395 episodes. The weights of the deep Q-network are stored in 
 `solution/agent.pth`. 
+![image4]
