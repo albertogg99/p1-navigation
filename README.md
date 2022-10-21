@@ -36,7 +36,7 @@ when the average score of the last 100 episodes is equal or greater than 13 poin
 
 #### Guidelines
 
-The whole training of the agent is implemented in the Solution.ipynb notebook. You can either visualize the last
+The whole training of the agent is implemented in the [Solution.ipynb notebook](https://github.com/albertogg99/p1-navigation/blob/master/solution/Solution.ipynb). You can either visualize the last
 execution or run it by yourself. To do so, you can take the following steps:
 
 1. Create (and activate) a new environment with Python 3.6.
@@ -72,6 +72,6 @@ environment.
 #### Results
 
 The agent is able to solve the problem in 395 episodes. The weights of the deep Q-network are stored in 
-`solution/agent.pth`. 
+[agent.pth](https://github.com/albertogg99/p1-navigation/blob/master/solution/agent.pth). Here's the agent's score history:
 
 ![image4]
