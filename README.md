@@ -64,7 +64,12 @@ environment.
    ```bash
    python -m ipykernel install --user --name drlnd --display-name "drlnd"
    ```
-5. Before running the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+5. Download the Unity Environment and unzip it inside the `solution/` directory. (If you are using Windows 64 bits, you can skip this step since the repository already contains the environment files. Otherwise, delete the environment files and place the ones matching your OS).
+	- [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+	- [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+	- [Windows (32-bits)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+	- [Windows (64 bits)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)   
+6. Before running the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
    ![image3]
 
